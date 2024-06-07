@@ -1,0 +1,197 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    ;
+    font-size: 18px;
+    
+    
+
+    
+}
+main{
+    background-color:#f0f8ff
+}
+
+a{ 
+    text-decoration: none;
+    color: white;
+}
+header{
+    margin:0;
+}
+nav{ 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:20px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    border: 1px;
+    border-radius: 20px;
+    
+    border: solid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+section div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+#student{
+    height:90vh
+   
+    
+}
+
+h1{
+    
+    text-align: center;
+    color: #2196f3;
+    font-size: 35px;
+    text-decoration: underline;
+    
+    text-transform: uppercase;
+    margin-top: 15px;
+
+}
+h3{
+    font-size: 20px;
+    color:#2196f3;
+    
+}
+.SYSTEM_DESIGN img{
+    
+    border-radius: 15px;
+    
+    height: 50%;
+    width:60%;
+    
+    border: solid;
+
+}
+.SYSTEM_DESIGN div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.SYSTEM_SPECIFICATIONS img{
+    display:inline-block;
+    border-radius: 15px;
+    
+    height: 25vh;
+    width:25vw;
+    float: right;
+    border: solid;
+    
+
+}
+.SYSTEM_SPECIFICATIONS strong{
+    display: block;
+}
+.SYSTEM_SPECIFICATIONS li{
+    height:30vh;
+}
+.METHODOLOGY img{
+    height:60%;
+    width:40%;
+   
+    
+
+    
+}
+.METHODOLOGY div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    border:1px solid lightgrey;
+    height: 20px;
+    border-radius: 10px;
+}
+.sumbit{
+    border-radius: 5px;
+    cursor: pointer;
+    padding:8px 19px;
+    border-style: none;
+    background-color: #2196F3;
+    color:white;
+
+}
+.reset{
+    border-radius: 5px;
+    cursor: pointer;
+    padding:8px 19px;
+    border-style: none;
+    background-color: #2196F3;
+    color: white;
+}
+.sumbit:hover{
+    background-color: green;
+}
+.reset:hover{
+    background-color: red;
+}
+#rate{
+    
+    margin-top: 20px;
+    height: 100vh;
+    background-color:#f0f8ff;
+    color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    border-style: solid;
+    border-radius: 15px;
+    
+}
+.TOP{
+    border-radius: 200px;
+    cursor: pointer;
+    border-style: none;
+    background-color: #2196F3;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height:58px;
+    width: 58px;
+}
+footer div{
+    
+    margin-top: 20px;
+    height: 100px;
+    background-color: black;
+    color: lightgray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
